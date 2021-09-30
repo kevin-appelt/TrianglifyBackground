@@ -1,0 +1,7 @@
+#trianglify-background {
+    position: absolute;
+}
+
+#trianglify-background + .typo3-login {
+    background: transparent;
+}

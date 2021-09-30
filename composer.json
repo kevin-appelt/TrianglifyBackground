@@ -1,0 +1,42 @@
+{
+	"name": "k10/trianglify",
+	"description": "If no login background is defined, this extension generates a random background per trianglify.",
+	"keywords": [
+		"typo3",
+		"backend",
+		"trianglify"
+	],
+	"homepage": "https://www.kevin-appelt.de",
+	"authors": [
+		{
+			"name": "Kevin Appelt",
+			"email": "typo3@kevin-appelt.de",
+			"homepage": "https://www.kevin-appelt.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "typo3@kevin-appelt.de",
+		"source": "https://github.com/kevin-appelt/TrianglifyBackground",
+		"issues": "https://github.com/kevin-appelt/TrianglifyBackground/issues",
+		"docs": "https://github.com/kevin-appelt/TrianglifyBackground/wiki"
+	},
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"type": "typo3-cms-extension",
+	"version": "1.0.0",
+	"require": {
+		"typo3/cms-core": "^10.4 || ^11.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"K10\\Trianglify\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "trianglify"
+		}
+	}
+}
